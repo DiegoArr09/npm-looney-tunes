@@ -3,6 +3,7 @@ const looneys = require("./looneys.js");
 function all() {
   return looneys;
 }
+
 function random() {
   for (let i = 0; i < looneys.length; i++) {
     const position = Math.floor(Math.random() * looneys.length);
@@ -10,6 +11,7 @@ function random() {
     return looneyRandom;
   }
 }
+
 function getLooney(looneyName) {
   for (let looney of looneys) {
     if (looney.name === looneyName) {
@@ -17,6 +19,7 @@ function getLooney(looneyName) {
     }
   }
 }
+
 function friends(looneyName) {
   for (let looney of looneys) {
     if (looney.name === looneyName) {
@@ -24,6 +27,7 @@ function friends(looneyName) {
     }
   }
 }
+
 function enemies(looneyName) {
   for (let looney of looneys) {
     if (looney.name === looneyName) {
@@ -32,10 +36,20 @@ function enemies(looneyName) {
   }
 }
 
+function names() {
+  const looneysNames = [];
+  for (let looney of looneys) {
+    looneysNames.push(looney.name);
+  }
+  return looneysNames;
+}
+console.log(names());
+
 module.exports = {
   all,
   random,
   getLooney,
   friends,
   enemies,
+  names,
 };
