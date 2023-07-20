@@ -1,2 +1,7 @@
-<h1>Welcome to Looney Tunes Library!</h1>
-<h2>"What's up, doc?”</h2>
+# Welcome to Looney Tunes Library!
+
+## "What's up, doc?”
+
+```js
+$ npm install npm-looney-tunes
+```
