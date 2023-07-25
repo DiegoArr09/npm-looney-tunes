@@ -18,6 +18,7 @@ const looneyTunes = require('looney-tunes');
 ## Functions
 ### 1. all()
 This function retrieves information about all Looney Tunes characters available.
+
 Returns: An array of Looney Tunes characters.
 ### Example: 
 ```js
@@ -29,6 +30,7 @@ console.log(allLooneyTunes);
 
 ### 2. names()
 This function retrieves a list of all Looney Tunes character names available.
+
 Returns: An array containing names of all Looney Tunes characters.
 ### Example: 
 ```js
@@ -40,6 +42,7 @@ console.log(looneyNames);
 
 ### 3. random()
 This function retrieves a random Looney Tunes character.
+
 Returns: A single random Looney Tunes character.
 ### Example: 
 ```js
@@ -51,6 +54,7 @@ console.log(randomLooneyTune);
 
 ### 4. getLooney(looneyName)
 This function retrieves details about a specific Looney Tunes character based on the provided name in the parameter.
+
 Returns: Information about the specified Looney Tunes character.
 ### Example: 
 ```js
@@ -63,6 +67,7 @@ console.log(looneyDetails);
 
 ### 5. friends(looneyName)
 This function retrieves the list of friends of a specific Looney Tunes character based on the provided name.
+
 Returns: An array of friends of the specified Looney Tunes character.
 ### Example: 
 ```js
@@ -75,6 +80,7 @@ console.log(looneyFriends);
 
 ### 6. enemies(looneyName)
 This function retrieves the list of enemies of a specific Looney Tunes character based on the provided name.
+
 Returns: An array of enemies of the specified Looney Tunes character.
 ### Example: 
 ```js
