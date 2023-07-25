@@ -43,7 +43,6 @@ function names() {
   }
   return looneysNames;
 }
-console.log(names());
 
 module.exports = {
   all,
