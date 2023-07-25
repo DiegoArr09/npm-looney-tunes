@@ -2,6 +2,9 @@
 
 ## "What's up, doc?”
 
+![Looney Tunes NPM Library](https://www.cartonionline.com/wordpress/wp-content/uploads/2021/10/painel-1x65cm-looney-tunes-festa-infantil-1000x600.jpg)
+
+## Installation
 ```js
 $ npm install npm-looney-tunes
 ```
