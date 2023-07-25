@@ -21,6 +21,7 @@ Returns: An array of Looney Tunes characters.
 const allLooneyTunes = looneyTunes.all();
 console.log(allLooneyTunes);
 ```
+
 ***
 
 ### 2. names()
@@ -32,6 +33,8 @@ const looneyNames = looneyTunes.names();
 console.log(looneyNames);
 ```
 
+***
+
 ### 3. random()
 This function retrieves a random Looney Tunes character.
 Returns: A single random Looney Tunes character.
@@ -40,6 +43,8 @@ Returns: A single random Looney Tunes character.
 const randomLooneyTune = looneyTunes.random();
 console.log(randomLooneyTune);
 ```
+
+***
 
 ### 4. getLooney(looneyName)
 This function retrieves details about a specific Looney Tunes character based on the provided name in the parameter.
@@ -51,6 +56,7 @@ const looneyDetails = looneyTunes.getLooney(looneyName);
 console.log(looneyDetails);
 ```
 
+***
 
 ### 5. friends(looneyName)
 This function retrieves the list of friends of a specific Looney Tunes character based on the provided name.
@@ -62,6 +68,8 @@ const looneyFriends = looneyTunes.friends(looneyName);
 console.log(looneyFriends);
 ```
 
+***
+
 ### 6. enemies(looneyName)
 This function retrieves the list of enemies of a specific Looney Tunes character based on the provided name.
 Returns: An array of enemies of the specified Looney Tunes character.
@@ -72,6 +80,8 @@ const looneyEnemies = looneyTunes.enemies(looneyName);
 console.log(looneyEnemies);
 ```
 
+***
+
 ## Console Log Outputs
 
 1. all(): The output will be an array of Looney Tunes characters with their details.
@@ -80,6 +90,8 @@ console.log(looneyEnemies);
 4. getLooney(looneyName): The output will be information about the specified Looney Tunes character.
 5. friends(looneyName): The output will be an array of friends of the specified Looney Tunes character.
 6. enemies(looneyName): The output will be an array of enemies of the specified Looney Tunes character.
+
+***
 
 Please note that the console log outputs will display the relevant information when the functions are called correctly.
 Remember to handle errors appropriately, such as incorrect input, using try-catch blocks when calling these functions.
