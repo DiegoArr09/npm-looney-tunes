@@ -6,7 +6,7 @@
 
 ## Installation
 ```js
-$ npm install npm-looney-tunes
+$ npm install looney-tunes
 ```
 
 ## Usage
