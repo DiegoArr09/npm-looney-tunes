@@ -94,7 +94,9 @@ console.log(looneyEnemies);
 ***
 
 Please note that the console log outputs will display the relevant information when the functions are called correctly.
+
 Remember to handle errors appropriately, such as incorrect input, using try-catch blocks when calling these functions.
+
 Also, Looney Tunes is an experimental library, and it may have some limitations or occasional bugs. We are committed to continuously improving and resolving any issues that may arise over time. Your feedback and support are invaluable in helping us enhance the library's functionality and reliability. Thank you for your understanding and patience as we work towards delivering a more robust and dependable experience.
 
 
