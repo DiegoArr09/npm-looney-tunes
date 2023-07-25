@@ -21,6 +21,7 @@ Returns: An array of Looney Tunes characters.
 const allLooneyTunes = looneyTunes.all();
 console.log(allLooneyTunes);
 ```
+---
 
 ### 2. names()
 This function retrieves a list of all Looney Tunes character names available.
