@@ -1,12 +1,24 @@
 {
   "name": "looney-tunes",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Get Looney Tunes Names, including all their own information and photos",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "looneyTunes",
+    "animatedCharacters",
+    "arrayOfObjects",
+    "searchByName",
+    "randomCharacter",
+    "cartoons",
+    "npmLibrary",
+    "npmPackage",
+    "list",
+    "names",
+    "data"
+  ],
   "author": "Diego Arrigonni - Mateo Gomez (https://www.linkedin.com/in/diego-arrigonni/ - https://www.linkedin.com/in/mateo-g%C3%B3mez-mello/)",
   "license": "ISC",
   "repository": {
