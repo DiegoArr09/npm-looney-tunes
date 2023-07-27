@@ -1,6 +1,6 @@
 {
   "name": "looney-tunes",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Get Looney Tunes Names, including all their own information and photos",
   "main": "src/index.js",
   "scripts": {
