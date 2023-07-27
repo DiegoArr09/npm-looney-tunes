@@ -25,5 +25,5 @@
     "type": "git",
     "url": "git+https://github.com/DiegoArr09/npm-looney-tunes"
   },
-  "homepage": "git+https://github.com/DiegoArr09/npm-looney-tunes#readme"
+  "homepage": "https://looney-tunes.vercel.app/"
 }
