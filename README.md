@@ -13,6 +13,8 @@ $ npm install looney-tunes
 To use the Looney Tunes library in your project, import it as follows:
 ```js
 const looneyTunes = require('looney-tunes');
+// or
+import looneyTunes from "looney-tunes";
 ```
 
 ## Functions
